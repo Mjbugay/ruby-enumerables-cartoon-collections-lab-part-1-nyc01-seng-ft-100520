@@ -1,6 +1,8 @@
 def greet_characters(array)
-  array.each { |name| puts "Hello, #{name}!"
+  array.each { |dwarf| puts "Hello, " + dwarf + "!"
 end
+  
+  
 
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
