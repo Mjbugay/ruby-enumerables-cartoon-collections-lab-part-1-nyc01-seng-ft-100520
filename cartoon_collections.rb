@@ -5,6 +5,5 @@ end
   
 
 def list_dwarves(array)
-  array.each_with_index { |dwarf, index| puts 
-
+  array.each_with_index { |dwarf, index| puts index + 1 + ". " + dwarf }
 end
